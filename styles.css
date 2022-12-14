@@ -1,0 +1,11 @@
+@media only screen and (max-width: 1293px) {
+    .__sidebar-element-hidden-on-viewport-shrink {
+        display: none !important;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .__sidebar-element-text-color-light-when-dark {
+        color: rgb(231, 233, 234) !important;
+    }
+}

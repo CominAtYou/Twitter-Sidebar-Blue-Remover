@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Twitter Sidebar Blue Remover",
+    "version": "1.0.0",
+    "description": "Removes the 'Twitter Blue' button from the Twitter sidebar.",
+    "author": "CominAtYou",
+
+    "content_scripts": [
+        {
+            "matches": ["https://twitter.com/*", "https://mobile.twitter.com/*"],
+            "js": ["main.js"],
+            "css": ["styles.css"]
+        }
+    ]
+}
